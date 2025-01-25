@@ -1,0 +1,12 @@
+
+# dependencies
+/node_modules
+# /.pnp
+package-lock.json
+package.json
+
+first.js
+
+/.parcel-cache
+
+dist

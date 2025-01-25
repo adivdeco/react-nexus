@@ -103,7 +103,7 @@ input{
 }
 
 .filter button{
-    background-color:whitesmoke;
+    background-color:rgb(174, 170, 170);
     color: black;
     border: none;
     padding: 9px 50px;
@@ -117,5 +117,5 @@ input{
     top: 10%;
 }
 .filter button:hover{
-    background-color: rgb(201, 197, 197);
+    background-color: rgb(146, 142, 142);
 }

@@ -5,10 +5,7 @@ const element1 = <h1>Hello Coder Army</h1>
 // JSX: JS Expression (Output laake de: Result produce)
 // JSX: Statement (unko aap nahi likh sakte)
 
-// props = {
-//     name:"Rohit Negi",
-//     age:"23"
-// }
+// hear props work as an object...> props = {name: "Rohit Negi", age: 23}
 
 // Result produce hona chaiye: string , number, array
 function Greet(props) {
@@ -16,9 +13,9 @@ function Greet(props) {
     return <h2>Ram Ram Bhaiya ji {props.name} {props.age}</h2>
 };
 
-const element2 = <Greet name="Rohit Negi" age="23"/>
+// const element2 = <Greet name="Rohit Negi" age="23"/>
 
-const element3 = <h1 id="first" className="Second"></h1>
+// const element3 = <h1 id="first" className="Second"></h1>
 
 // <Greet/>: Function call
 // <div> <h1> <ul>

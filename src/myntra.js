@@ -1,20 +1,12 @@
-import React from "react";
+import React  from "react";
 import ReactDOM from "react-dom/client"
 import Header from "./component/header";
 import Card from "./component/card";
 import Footer from "./component/footer";
+import Filter from "./component/filter";
+import arr from "../helper/logic";
+import { useState } from "react";
 
-
-
-function Filter(){
-    return (
-        <div className="filter">
-            <button>
-              Short:hight to low
-            </button>
-        </div>
-        
-)}
 
 
 
