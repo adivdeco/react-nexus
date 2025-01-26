@@ -15,7 +15,7 @@ body,html{
     justify-content: center;
     align-items: center;
     /* background-color: #585555; */
-    margin-top: 5%;
+    margin-top: 3%;
     color: white;
     
 
@@ -24,7 +24,6 @@ body,html{
 .card{
     width: 230px;
     height: 300px;
-    
     background-color: #2c2c2c;
     border-radius: 10px;
     display: flex;
@@ -33,6 +32,10 @@ body,html{
     align-items: center;
     box-shadow: 0 0 5px 2px #000000;
     font-size: 0.9vw;
+}
+.card:hover{
+    box-shadow: 0 0 10px 2px #000000;
+    scale: 1.1;
 }
 img{
     border-radius: 10px;
@@ -102,20 +105,28 @@ input{
     margin-top: 10%;
 }
 
+.filter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
 .filter button{
     background-color:rgb(174, 170, 170);
     color: black;
     border: none;
-    padding: 9px 50px;
-    /* margin: 5px; */
+    padding: 5px 20px;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 1.3vw;
-    /* text-transform: capitalize; */
-    margin-left: 10%;
-    position: absolute;
-    top: 10%;
+    font-size: 1.1vw;    
+    margin-left: 1%;
+
 }
 .filter button:hover{
     background-color: rgb(146, 142, 142);
+}
+.filter p{
+    font-size: 1.8vw;
+    font-weight:200;
+    
 }
